@@ -49,7 +49,7 @@ keycloak = login(
 )
 ```
 
-Depending on your Keycloak configuration, you might want to specify additional parameters to the Keycloak. These can be provided using the ```init_options``` parameter and will be passed to the init function in the frontend. See the [keycloak-js documentation](https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter) for details.
+Depending on your Keycloak configuration, you might want to specify additional parameters to the Keycloak. These can be provided using the ```init_options``` parameter and will be passed to the init function in the frontend. See the [keycloak-js documentation](https://www.keycloak.org/securing-apps/javascript-adapter) for details.
 
 ```python
 keycloak = login(    
